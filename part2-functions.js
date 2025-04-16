@@ -1,15 +1,30 @@
-1. Dog Age Converter
+//1. Dog Age Converter
 
 function dogToHumanYears(dogAge) {
-  
+  return dogage * 7
 }
-2. Tip Calculator
+let result = dogToHumanYears(11)
+console.log (result);
+
+
+//new function
 
 function calculateTip(total, percentage) {
-  
+  return total * percentage
 }
-3. Even or Odd
+let total = calculateTip(100, .34)
+console.log (total);
+
+
+// Even or Odd
 
 function checkEvenOdd(num) {
-  
+  if (num%2===0){
+    return true
+  }
+  else{
+    return false
+  }
 }
+
+console.log(checkEvenOdd(8))
