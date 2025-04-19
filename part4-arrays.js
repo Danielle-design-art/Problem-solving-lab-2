@@ -66,6 +66,13 @@ let numbers = ["1","2","3","4","5"];
 
 console.log(numbers)
 
+console.log(numbers[4])
+console.log(numbers[3])
+console.log(numbers[2])
+console.log(numbers[1])
+console.log(numbers[0])
+
+
 function reverseArray(arr) {
     const newArr = [];
     for (let i = arr.length - 1; i >= 0; i--) {
@@ -79,7 +86,7 @@ function reverseArray(arr) {
   console.log(reversedArray); // Output: [5, 4, 3, 2, 1]
 
 
-  
+
 console.log("Random Lunches")
 
 let Lunches = ["Tacos", "Gyros", "Salad", "Dumplings"];
