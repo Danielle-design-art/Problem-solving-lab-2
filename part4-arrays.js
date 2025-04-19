@@ -42,23 +42,22 @@ let tasks = [
 ];
 
 console.log(tasks)
+  
 
-for (let i = 0; i < tasks.length; i++) {
-    async function printTasks() {
-        //console.log(tasks[i]);
-    }
-  }
 
- 
- 
-  console.log("Reverse It")
+
+ console.log("Reverse It")
 
   let numbers = ["1","2","3","4","5"];
 
 console.log(numbers)
 
-  for (let i = numbers.length - 1; i > 0; i--) {
-    
-  }
-  
+
+
+
+console.log("Random Lunches")
+
+let Lunches = ["Tacos", "Gyros", "Salad", "Dumplings"];
+
+console.log(Lunches)
 
