@@ -43,6 +43,21 @@ let tasks = [
 
 console.log(tasks)
 
+function printTasks(tasks) {
+    for (let i = 0; i < tasks.length; i++) {
+      console.log(tasks[i]);
+    }
+  }
+  
+  const myTasks = [
+    "grocery shopping", 
+    "cut grass", 
+    "car maintenance", 
+    "laundry", 
+    "aquascaping", 
+    "Family Night"
+];
+printTasks(myTasks);
 
   
 console.log("Reverse It")
@@ -51,7 +66,17 @@ let numbers = ["1","2","3","4","5"];
 
 console.log(numbers)
 
+function reverseArray(arr) {
+    var newArray = [];
+    for (var i = arr.length - 1; i >= 0; i--) {
+      newArray.push(arr[i]);
+    }
+    return newArray;
+}
 
+let newArray=["5","4","3","2","1"]
+
+  console.log(newArray)
 
 console.log("Random Lunches")
 
