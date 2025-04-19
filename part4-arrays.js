@@ -42,16 +42,14 @@ let tasks = [
 ];
 
 console.log(tasks)
+
+
   
+console.log("Reverse It")
 
-
-
- console.log("Reverse It")
-
-  let numbers = ["1","2","3","4","5"];
+let numbers = ["1","2","3","4","5"];
 
 console.log(numbers)
-
 
 
 
@@ -60,4 +58,3 @@ console.log("Random Lunches")
 let Lunches = ["Tacos", "Gyros", "Salad", "Dumplings"];
 
 console.log(Lunches)
-
