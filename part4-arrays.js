@@ -67,17 +67,19 @@ let numbers = ["1","2","3","4","5"];
 console.log(numbers)
 
 function reverseArray(arr) {
-    var newArray = [];
-    for (var i = arr.length - 1; i >= 0; i--) {
-      newArray.push(arr[i]);
+    const newArr = [];
+    for (let i = arr.length - 1; i >= 0; i--) {
+      newArr.push(arr[i]);
     }
-    return newArray;
-}
+    return newArr;
+  }
+  
+  const originalArray = [1, 2, 3, 4, 5];
+  const reversedArray = reverseArray(originalArray);
+  console.log(reversedArray); // Output: [5, 4, 3, 2, 1]
 
-let newArray=["5","4","3","2","1"]
 
-  console.log(newArray)
-
+  
 console.log("Random Lunches")
 
 let Lunches = ["Tacos", "Gyros", "Salad", "Dumplings"];
