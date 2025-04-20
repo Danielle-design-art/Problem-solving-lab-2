@@ -91,4 +91,10 @@ console.log("Random Lunches")
 
 let Lunches = ["Tacos", "Gyros", "Salad", "Dumplings"];
 
+var myArray = ["Tacos", "Gyros", "Salad", "Dumplings"];
+
+var rand = myArray[(Math.random() * myArray.length) | 0]
+
+console.log(rand)
+
 console.log(Lunches)
